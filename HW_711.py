@@ -12,7 +12,6 @@ float_b = 1.25
 float_c = float_a + float_b
 
 print(float_c)
-
 print(type(a))
 print(type(float_a))
 
