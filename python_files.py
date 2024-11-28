@@ -75,7 +75,7 @@ if os.path.exists(filename_new):
     print(f'Файл {filename_new} удален')
 
 # создание директории
-dir_name = 'files'
+dir_name = 'files'.
 if not os.path.exists(dir_name):               # с проверкой
     os.makedirs(dir_name, exist_ok=True)
 
