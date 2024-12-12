@@ -12,6 +12,7 @@ def get_html(url: str) -> str|None:
     try:
         response = requests.get(url)
         status = response.status_code
+        # Если НЕ успешный запрос и НЕ переадресация - то ОШИБКА
         if status != 200 and str(status)[0] != 3:
             print(f'Ошибка запроса. Код ответа - {status}')
             return None
