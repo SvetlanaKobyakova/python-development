@@ -19,6 +19,7 @@ def download_image(url: str) -> None:
 
 
 
+
 # api_url = "https://dog.ceo/api/breeds/image/random"
 # link = get_image_link(url=api_url)
 # download_image(url=link)
